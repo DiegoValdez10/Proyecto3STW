@@ -46,23 +46,6 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
     flex-direction: column;
     align-items: center;
   }
-  ```
-  .hola {
-    font-size: 48px;
-    font-weight: bold;
-    color: #253237;
-    margin-top: 200px;
-  }
-  
-  .Estudiante {
-    font-size: 20px;
-    color: #253237;
-    display: inline-block;
-    white-space: pre-wrap;
-    width: 45%;
-  }
-  
-  ```
   - Proyectos
     -Proyectos.js
     -Proyectos.scss
