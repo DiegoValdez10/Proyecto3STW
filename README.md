@@ -92,12 +92,6 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
     - lab2.js
     - lab2.scss
     
-         <div>
-                <img src={Lab2F} alt="Mapache" className="imagen" />
-            <h1 className="titulo">Lab2</h1>
-            <p className="parrafo">Este laboratorio fue hecho solamente con CSS y nos dieron a elegir una imagen para replicarla usando solamente CSS yo                  elegí un mapache.</p>
-            <h3 className="titulo-tecnologias">Tecnologías aplicadas:</h3>
-            <div className="etiquetas2">
             
   - lab5
     - lab5.js
