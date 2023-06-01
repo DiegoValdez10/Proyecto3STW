@@ -16,20 +16,7 @@ Link a firebase: https://proyecto3sistemasweb.web.app
 - `npm run webpack`
 
 ## Documentación
-En este semestre de la clase de Sistemas y tecnologías web vimos desde lo básico a creación de páginas en su totalidad. Las tecnologías que vimos cronologicamente fueron las siguientes:
-- AWS
-- HTML
-- CSS
-- JavaScript
-- WebComponents
-- Webpack
-- SASS 
-- SCSS
-- Babel
-- React
-- Firebase
-
-En este proyecto se implementan todas las tecnologías que se han visto en todo el semestre para demostrar los conocimientos aprendidos. El proyecto fue creado usando create-react-app usando componentes para la creación del portafolio, se utilizó la webpack para la renderización y subida a firebase. El proyecto esta hecho en SCSS, se subió a Firebase donde los usuarios que desean verlo pueden visitar el link.
+Link al documento de la documentación: https://docs.google.com/document/d/1hpcxBgp_6BNauYRQ_Fw3TNSEiWVrmdzZnxFeMgROh_o/edit?usp=sharing
 
 ## Estructura
 - Dist
