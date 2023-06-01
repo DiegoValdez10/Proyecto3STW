@@ -57,6 +57,12 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
     -Proyectos.scss
   - SobreMi
     -SobreMi.js
+    
+                    <div className="columna">
+                    <span className="etiqueta etiqueta-firebase">Firebase</span>
+                    <span className="etiqueta etiqueta-nodejs">Node.js</span>
+                    <span className="etiqueta etiqueta-webpack">Webpack</span>
+                    <span className="etiqueta etiqueta-babel">Babel</span>
     -SobreMi.scss
   - contacto
     -contacto.js
