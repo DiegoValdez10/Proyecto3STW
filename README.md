@@ -100,18 +100,18 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
             <div className="etiquetas2">
             
   - lab5
-    -lab5.js
+    - lab5.js
     
-    -lab5.scss
+    - lab5.scss
   - lab8
-    -lab8.js
-    -lab8.scss
+    - lab8.js
+    - lab8.scss
   - proyecto1
-    -proyecto1.js
-    -proyecto1.scss
+    - proyecto1.js
+    - proyecto1.scss
   - proyecto2
-    -proyecto2.js
-    -proyecto2.scss
+    - proyecto2.js
+    - proyecto2.scss
 - index.js
 
       return (
