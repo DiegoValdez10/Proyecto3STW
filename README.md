@@ -32,7 +32,41 @@ En este semestre de la clase de Sistemas y tecnologías web vimos desde lo bási
 En este proyecto se implementan todas las tecnologías que se han visto en todo el semestre para demostrar los conocimientos aprendidos. El proyecto fue creado usando create-react-app usando componentes para la creación del portafolio, se utilizó la webpack para la renderización y subida a firebase. El proyecto esta hecho en SCSS, se subió a Firebase donde los usuarios que desean verlo pueden visitar el link.
 
 ## Estructura
--Dist
--Public
--src
-  -
+- Dist
+- Public
+- src
+  - Hola
+    -Hola.js
+    -Hola.css
+  - Proyectos
+    -Proyectos.js
+    -Proyectos.css
+  - SobreMi
+    -SobreMi.js
+    -SobreMi.css
+  - contacto
+    -contacto.js
+    -contacto.css
+  - header
+    -header.js
+    -header.css
+  - lab2
+    -lab2.js
+    -lab2.css
+  - lab5
+    -lab5.js
+    -lab5.css
+  - lab8
+    -lab8.js
+    -lab8.css
+  - proyecto1
+    -proyecto1.js
+    -proyecto1.css
+  - proyecto2
+    -proyecto2.js
+    -proyecto2.css
+- index.js
+- index.css
+- App.js
+- App.css
+- 
