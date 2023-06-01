@@ -46,12 +46,14 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
     flex-direction: column;
     align-items: center;
   - Proyectos
-    -Proyectos.j
-        ```<div className="project-info">
+    -Proyectos.js
+    
+        ``` <div className="project-info">
             <h2>Laboratorio 2: CSS Only</h2>
             <p>Este es el laboratorio número 2, en este se nos pedía replicar cualquier imagen mediante CSS.</p>
             <Link to="/lab2" onClick={handleLab2Click}> 
-              <button>Lab 2</button>    ```
+              <button>Lab 2</button>```
+              
     -Proyectos.scss
   - SobreMi
     -SobreMi.js
