@@ -37,36 +37,58 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
 - src
   - Hola
     -Hola.js
-    -Hola.css
+    -Hola.scss
+  ``` container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hola {
+    font-size: 48px;
+    font-weight: bold;
+    color: #253237;
+    margin-top: 200px;
+  }
+  
+  .Estudiante {
+    font-size: 20px;
+    color: #253237;
+    display: inline-block;
+    white-space: pre-wrap;
+    width: 45%;
+  }
   - Proyectos
     -Proyectos.js
-    -Proyectos.css
+    -Proyectos.scss
   - SobreMi
     -SobreMi.js
-    -SobreMi.css
+    -SobreMi.scss
   - contacto
     -contacto.js
-    -contacto.css
+    -contacto.scss
   - header
     -header.js
-    -header.css
+    -header.scss
   - lab2
     -lab2.js
-    -lab2.css
+    -lab2.scss
   - lab5
     -lab5.js
-    -lab5.css
+    -lab5.scss
   - lab8
     -lab8.js
-    -lab8.css
+    -lab8.scss
   - proyecto1
     -proyecto1.js
-    -proyecto1.css
+    -proyecto1.scss
   - proyecto2
     -proyecto2.js
-    -proyecto2.css
+    -proyecto2.scss
 - index.js
 - index.css
 - App.js
 - App.css
-- 
+
