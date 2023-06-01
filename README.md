@@ -7,7 +7,7 @@ Este es el proyecto 3 de la clase de Sistemas y Tecnologías Webe el cual es un 
 4. Correr `npm start` para ver la página.
 ## Firebase
 Link a firebase: https://proyecto3sistemasweb.web.app
-## Commands
+## Commandos
 
 - `npm start`
 - `npm run build`
