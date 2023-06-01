@@ -28,8 +28,10 @@ En este semestre de la clase de Sistemas y tecnologías web vimos desde lo bási
 - Babel
 - React
 - Firebase
+
 En este proyecto se implementan todas las tecnologías que se han visto en todo el semestre para demostrar los conocimientos aprendidos. El proyecto fue creado usando create-react-app usando componentes para la creación del portafolio, se utilizó la webpack para la renderización y subida a firebase. El proyecto esta hecho en SCSS, se subió a Firebase donde los usuarios que desean verlo pueden visitar el link.
-##Estructura
+
+## Estructura
 -Dist
 -Public
 -src
