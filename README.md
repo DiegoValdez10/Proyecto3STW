@@ -89,8 +89,8 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
   
     -header.scss
   - lab2
-    -lab2.js
-    -lab2.scss
+    - lab2.js
+    - lab2.scss
     
          <div>
                 <img src={Lab2F} alt="Mapache" className="imagen" />
