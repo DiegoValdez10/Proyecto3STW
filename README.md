@@ -38,14 +38,15 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
   - Hola
     -Hola.js
     -Hola.scss
-  ``` container {
+    ```
+    container {
     position: relative;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+  ```
   .hola {
     font-size: 48px;
     font-weight: bold;
@@ -60,6 +61,8 @@ En este proyecto se implementan todas las tecnologías que se han visto en todo 
     white-space: pre-wrap;
     width: 45%;
   }
+  
+  ```
   - Proyectos
     -Proyectos.js
     -Proyectos.scss
