@@ -15,7 +15,9 @@ Link a firebase: https://proyecto3sistemasweb.web.app
 - `npm run eject`
 - `npm run webpack`
 
-# Documentación
+Documentación
+
+
 ### En este semestre de la clase de Sistemas y tecnologías web vimos desde lo básico a creación de páginas en su totalidad. Las tecnologías que vimos cronologicamente fueron las siguientes:
 -AWS
 -HTML
