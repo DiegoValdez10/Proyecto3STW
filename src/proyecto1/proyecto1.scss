@@ -1,0 +1,182 @@
+.imagen {
+    display: block;
+    margin: 0 auto;
+    margin-right: 500px;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+}
+
+.parrafo {
+    font-size: 18px;
+    text-align: center;
+}
+
+.titulo-tecnologias {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.etiquetas7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.etiqueta {
+    padding: 5px 10px;
+    background-color: #9db4c0;
+    color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.etiqueta-webpack {
+    background-color: #9db4c0;
+}
+
+.etiqueta-babel {
+    background-color: #9db4c0;
+}
+
+.etiqueta-firebase {
+    background-color: #9db4c0;
+}
+
+.etiqueta-react {
+    background-color: #9db4c0;
+}
+
+.etiqueta-scss {
+    background-color: #9db4c0;
+}
+
+.etiqueta-sass {
+    background-color: #9db4c0;
+}
+
+.etiqueta-nodejs {
+    background-color: #9db4c0;
+}
+
+.boton-regresar {
+    height: 68px;
+    width: 320px;
+    background-color: #e0fbfc;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: 2px solid #e0fbfc;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.boton-regresar:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px black;
+}
+
+.boton-regresar:hover {
+    color: black;
+    box-shadow: 0 0 5px black;
+}
+
+.boton-ver-proyecto {
+    height: 68px;
+    width: 320px;
+    background-color: #e0fbfc;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: 2px solid #e0fbfc;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.boton-ver-proyecto:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px black;
+}
+
+.boton-ver-proyecto:hover {
+    color: black;
+    box-shadow: 0 0 5px black;
+}
+.botones{
+    margin-left: 400px;
+}
+/* Media queries para hacer el diseño responsive */
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 32px;
+    }
+
+    .parrafo {
+        font-size: 14px;
+    }
+
+    .titulo-tecnologias {
+        font-size: 18px;
+    }
+
+    .etiqueta {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+
+    .boton-regresar {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .boton-ver-proyecto {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titulo {
+        font-size: 24px;
+    }
+
+    .parrafo {
+        font-size: 12px;
+    }
+
+    .titulo-tecnologias {
+        font-size: 14px;
+    }
+
+    .etiqueta {
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+
+    .boton-regresar {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .boton-ver-proyecto {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}

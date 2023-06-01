@@ -1,0 +1,291 @@
+.TituloSO {
+    font-size: 72px;
+    color: #253237;
+    width: 45%;
+    margin-top: 325px;
+    margin-left: 575px;
+}
+
+.rectangulo {
+    width: 50px;
+    height: 10px;
+    background-color: #9db4c0;
+    margin-left: 700px;
+    margin-top: -25px;
+}
+
+.STituloSO {
+    font-size: 20px;
+    color: #253237;
+    width: 45%;
+    margin-left: 475px;
+}
+
+.tituloP {
+    font-size: 20px;
+    color: #253237;
+    width: 45%;
+    margin-left: 25px;
+    margin-top: 75px;
+    margin-bottom: -15px; /* Agregamos margen inferior para separarlo del párrafo */
+}
+
+.Parrafo {
+    font-size: 18px;
+    color: #253237;
+    display: inline-block;
+    text-align: justify;
+    white-space: pre-wrap;
+    width: 45%;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+.tituloE{
+  font-size: 20px;
+  color: #253237;
+  width: 45%;
+  position: absolute;
+  top: 1055px;
+  right: -20px;
+  z-index: 1;
+}
+/* Estilos para las etiquetas */
+.etiqueta {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #9db4c0;
+  color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.etiqueta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9db4c0;
+  backface-visibility: hidden;
+  transform: rotateY(0);
+  transition: transform 0.5s;
+}
+
+.etiqueta:hover:before {
+  transform: rotateY(180deg);
+}
+
+  
+  
+  /* Estilos específicos para cada etiqueta */
+  .etiquetas {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -175px;
+    margin-right: 190px;
+    flex-direction: column-reverse;
+    z-index: 0;
+  }
+
+  .etiqueta {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .columna {
+    flex-basis: 33.33%;
+  }
+  
+  /* Estilos para cada etiqueta */
+  .etiqueta-html {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-css {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-javascript {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-react {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-sass {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-responsive {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-angular {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-aws {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-firebase {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-nodejs {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-webpack {
+    background-color: #9db4c0;
+  }
+  
+  .etiqueta-babel {
+    background-color: #9db4c0;
+  }
+  @media screen and (max-width: 768px) {
+    .TituloSO {
+        font-size: 48px;
+        margin-top: 200px;
+        margin-left: 100px;
+        width: 80%;
+    }
+  
+    .rectangulo {
+        margin-left: 20px;
+    }
+  
+    .STituloSO {
+        font-size: 16px;
+        margin-left: 50px;
+        width: 80%;
+    }
+  
+    .tituloP {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+  
+    .Parrafo {
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 80%;
+    }
+  
+    .tituloE {
+        font-size: 16px;
+        top: 600px;
+        right: 20px;
+        width: 80%;
+    }
+  
+    .etiquetas {
+        margin-top: 20px;
+        margin-right: 20px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+  
+    .etiqueta {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+  
+    .columna {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .TituloSO {
+        font-size: 32px;
+        margin-top: 150px;
+        margin-left: 50px;
+        width: 90%;
+    }
+  
+    .rectangulo {
+        margin-left: 10px;
+    }
+  
+    .STituloSO {
+        font-size: 14px;
+        margin-left: 30px;
+        width: 90%;
+    }
+  
+    .tituloP {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+  
+    .Parrafo {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 90%;
+    }
+  
+    .tituloE {
+        font-size: 14px;
+        top: 400px;
+        right: 10px;
+        width: 90%;
+    }
+  
+    .etiquetas {
+        margin-top: 10px;
+        margin-right: 10px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+  
+    .etiqueta {
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+  
+    .columna {
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+  .tituloE {
+    font-size: 18px;
+    top: 1000px;
+    right: 10px;
+    width: 80%;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tituloE {
+    font-size: 16px;
+    top: 750px;
+    right: 10px;
+    z-index: 1;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tituloE {
+    font-size: 14px;
+    top: 550px;
+    right: 10px;
+    z-index: 1;
+    width: 90%;
+  }
+}
